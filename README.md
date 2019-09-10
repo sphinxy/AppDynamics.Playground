@@ -19,10 +19,10 @@ Example of expected dashboard (it works fine for Full):
 
 Example of .net core that doesn't catch Akka.NET calls:
 
-- <img src="raw.githubusercontent.com/sphinxy/AppDynamics.Playground/master/AppDynamicsDashboardExamples\appdyn_core_akka_doesnt_works.png?raw=true" />
+- <img src="https://raw.githubusercontent.com/sphinxy/AppDynamics.Playground/master/AppDynamicsDashboardExamples\appdyn_core_akka_doesnt_works.png?raw=true" />
 
 All together:
 
-- <img src="raw.githubusercontent.com/sphinxy/AppDynamics.Playground/master/AppDynamicsDashboardExamples\appdyn_full_and_core_not_same.png?raw=true" />
+- <img src="https://raw.githubusercontent.com/sphinxy/AppDynamics.Playground/master/AppDynamicsDashboardExamples\appdyn_full_and_core_not_same.png?raw=true" />
 
 
