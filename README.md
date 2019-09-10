@@ -15,14 +15,14 @@ It's expected that on appdynamics dashboard we will have four http backends: goo
 
 Example of expected dashboard (it works fine for Full):
 
-- `raw.githubusercontent.com/https://github.com/sphinxy/AppDynamics.Playground/master/AppDynamicsDashboardExamples\appdyn_full_akka_works.png?sanitize=true&raw=true`
+- `raw.githubusercontent.com/sphinxy/AppDynamics.Playground/master/AppDynamicsDashboardExamples\appdyn_full_akka_works.png?sanitize=true&raw=true`
 
 Example of .net core that doesn't catch Akka.NET calls:
 
-- `raw.githubusercontent.com/https://github.com/sphinxy/AppDynamics.Playground/master/AppDynamicsDashboardExamples\appdyn_core_akka_doesnt_works.png?sanitize=true&raw=true`
+- `raw.githubusercontent.com/sphinxy/AppDynamics.Playground/master/AppDynamicsDashboardExamples\appdyn_core_akka_doesnt_works.png?sanitize=true&raw=true`
 
 All together:
 
-- `raw.githubusercontent.com/https://github.com/sphinxy/AppDynamics.Playground/master/AppDynamicsDashboardExamples\appdyn_full_and_core_not_same.png?sanitize=true&raw=true`
+- `raw.githubusercontent.com/sphinxy/AppDynamics.Playground/master/AppDynamicsDashboardExamples\appdyn_full_and_core_not_same.png?sanitize=true&raw=true`
 
 
