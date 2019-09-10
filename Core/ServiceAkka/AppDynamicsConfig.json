@@ -1,0 +1,15 @@
+{
+  "controller": {
+    "host": "%placeURLhere%",
+    "port": 8090,
+    "account": "%placeLoginHere%",
+    "password": "%placePasswordHere%",
+    "ssl": false,
+    "enable_tls12": false
+  },
+  "application": {
+    "name": "AppDyn.Experimental",
+    "tier": "AppDyn.ServiceAkkaCore",
+    "node": "AppDyn.ServiceAkkaCore_sphinxy"
+  }
+}

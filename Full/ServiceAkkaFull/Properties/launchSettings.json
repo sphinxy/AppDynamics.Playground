@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "ServiceAkka": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:59001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:59001;"
+    }
+  }
+}
