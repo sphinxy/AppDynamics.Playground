@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appdynamics-agent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <controller host="%placeURLhere%" port="8090" ssl="false" enable_tls12="false">
+    <applications>
+        <application name="AppDyn.Experimental" default="true"/>
+   </applications>
+    <account name="%placeLoginHere%" password="%placePasswordHere%" />
+  </controller>
+   <machine-agent>
+      <!--Enable thread correlation-->
+      <instrumentation>
+         <instrumentor name="ThreadCorrelationThreadPoolCLR2Instrumentor" enabled="true" />
+         <instrumentor name="ThreadCorrelationThreadPoolCLR4Instrumentor" enabled="true" />
+         <instrumentor name="ThreadStartCLR2Instrumentor" enabled="true" />
+         <instrumentor name="ThreadStartCLR4Instrumentor" enabled="true" />
+      </instrumentation>
+   </machine-agent>
+   <app-agents>
+      <profiler>
+        <!-- Enable runtime reinstrumentation -->
+        <runtime-reinstrumentation enabled="true" interval="60000" />
+      </profiler>
+      <standalone-applications>
+        <standalone-application executable="ServiceAkkaFull.exe" controller-application="AppDyn.Experimental">
+         <tier name="appdyn.serviceAkkaFull" />
+        </standalone-application>
+      </standalone-applications>
+   </app-agents>
+</appdynamics-agent>
